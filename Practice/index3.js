@@ -1,12 +1,6 @@
 
 
-let products= [
-  {  mobile: "Samsung" , Price:2000},
-  {Laptop: "Dell" , Price: 3000},
-  {Bike:"Honda", Price: 3000}
-]
-let totalPrice= products.reduce((a,b) => a+ b.Price)
-console.log(totalPrice);
+
 
 // To find even numbers
 // let evenNum= array.filter(item => item % 2 === 0)

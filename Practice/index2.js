@@ -14,7 +14,7 @@
 
 
 
-// let num= [1,2,3,4,5,6,7];
+// let num= [2,3,4,5,6,7];
 
 // num.forEach(counting)
 // function counting(item,index){
@@ -28,3 +28,4 @@
 //     return count
 // }
 // console.log(counting(num));
+
