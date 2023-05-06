@@ -24,3 +24,73 @@
 // stuAbout.About()
 // stu.Nationality()
 
+
+// class person{
+//     constructor(Nam, umer){
+//         this.name= Nam
+//         this.age= umer;
+//     }
+//     about(){
+//         console.log(this.name,"is", this.age,'years old');
+//     }
+//     static Religon(){
+//         console.log(name);
+//         console.log(age);
+//     }
+    
+// }
+// let perObj=new person('Hamad', 20)
+// perObj.about()
+
+
+// class person{
+//     constructor(naam, umer){
+//         this.name= naam;
+//         this.age=umer;
+//     }
+//     about(){
+//         console.log( this.name, 'is', this.age, 'old');
+//     }
+// }
+// let perObj= new person('Hamad', 20)
+// perObj.about()
+// class morning{
+//     constructor(Name){
+//         greet()
+//             console.log('Good Morning', this.Name);
+        
+//     }
+// }
+// let givenName= new morning('Have a nice day')
+// givenName.greet()
+
+// class Professor {
+
+//     teaches;
+  
+//     constructor(name, teaches) {
+//       this.name= name;
+//       this.teaches = teaches;
+//     }
+  
+//     introduceSelf() {
+//       console.log(`My name is ${this.name}, and I will be your ${this.teaches} professor.`);
+//     }
+
+  
+//   }
+//   const walsh = new Professor('Hamad', 'Math');
+// walsh.introduceSelf();  // 'My name is Walsh, and I will be your Psychology professor'
+
+
+class findArea{
+    Area;
+    constructor(sidelength){
+        this.totallength= sidelength;
+    }
+    calArea(){
+        console.log(this.totallength * 4);
+    }
+}
+let area= new findArea(2)
+area.calArea()
