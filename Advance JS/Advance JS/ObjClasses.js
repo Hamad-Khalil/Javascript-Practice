@@ -197,3 +197,13 @@
 // shapeSq.findPeri()    // perimeter of the sq is 8
 // let shapeRec= new triangle (4)
 // shapeRec.findPeri() // perimeter of the triangle is 12.
+
+
+let newVar= document.getElementById("A1")
+console.log(newVar);
+let newVar2= document.getElementsByClassName("A2")
+console.log(newVar2);
+let newVar3= document.getElementsByTagName("button")
+console.log(newVar3);
+let newVar4= document.querySelectorAll("h1")
+console.log(newVar4);
