@@ -17,9 +17,9 @@
 
 
 
-let number=[1,-2,3,-4,5,-6,7,-8,9,-10]
-let negativeNum=number.filter(Element => Element <0);
-console.log(negativeNum.length);
+// let number=[1,-2,3,-4,5,-6,7,-8,9,-10]
+// let negativeNum=number.filter(Element => Element <0);
+// console.log(negativeNum.length);
 
 // const persons = [
 //     {firstname : "Malcom", lastname: "Reynolds"},
@@ -276,4 +276,14 @@ console.log(negativeNum.length);
 // }
 // console.log(counting(num));
 
+// let num= 7;
+// function tab(no){
+//     for( let i=1; i<=10;i++){
+//         console.log(no + ' X ' + i + ' = ' + no*i);
+//     }
+// }
+// tab(num)
 
+let Name;
+Name = 'Ali'
+console.log(Name);
