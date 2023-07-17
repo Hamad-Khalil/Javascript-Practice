@@ -284,6 +284,35 @@
 // }
 // tab(num)
 
-let Name;
-Name = 'Ali'
-console.log(Name);
+// let Name;
+// let nmtostr=9;
+// console.log(typeof nmtostr);
+// let num= String(nmtostr)
+// console.log(num);
+
+// let x=3
+// console.log(++x);
+// console.log(x);
+
+// let x= 1;
+// let y='Hamad'
+// console.log(x==y);
+
+// let dis= 10
+// console.log(dis/1.6093);
+// let x = "hello"
+// x= "world"
+// console.log(x);
+
+// let result = 3 + 4 * 2 / 8;
+// console.log(result);
+
+// let firstNum = 5;
+// let secondNum = 10;
+// firstNum++;
+// secondNum--;
+// let total = ++firstNum + secondNum;
+// console.log(total);
+// console.log(true ||false);
+
+
