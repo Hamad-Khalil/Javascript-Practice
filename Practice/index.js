@@ -27,7 +27,7 @@
 //     {firstname : "Jayne", lastname: "Cobb"}
 //   ];
 //   let fullName= persons.map(getFullName)
-  
+
 
 //   console.log(fullName);
 //   function getFullName(item) {
@@ -251,7 +251,7 @@
 //     {firstname : "Jayne", lastname: "Cobb"}
 //   ];
 //   let fullName= persons.map(getFullName)
-  
+
 
 //   console.log(fullName);
 //   function getFullName(item) {
@@ -316,3 +316,121 @@
 // console.log(true ||false);
 
 
+// let dog={
+//     dogName:'Jack',
+//     age:3,
+//     height:2.3,
+//     color:'Black'}
+//     dog.color='Brown'
+//     let legs=4
+//     console.log(dog[legs]);
+// let dogAge= dog.age;
+// console.log(dogAge);
+
+// let mycar={
+//     make:2020,
+//     model:2021,
+//     Varient:"Prosmtec"
+// }
+// let col="Black"
+// mycar["color"]=col
+// console.log(mycar);
+// let avail="Yes"
+// mycar['ForSale']= avail
+// console.log(mycar);
+// console.log(mycar.make, mycar.model);
+// console.log(mycar.ForSale);
+
+// let stuDet={
+//     stName:"Hamad",
+//     class:9,
+//     marks:{
+//         math:73,
+//         sci:99,
+//         urdu:77,
+//         IS:67
+//     },
+//     city:'Faisalabad',
+//     Hobbies:[
+//         'Cricket', "Gardening", "Book Reading"
+//     ]
+// }
+// console.log(stuDet.marks.urdu);
+// console.log(stuDet.Hobbies[2]);
+// let stuDet=[
+//     {
+//         stuName:"Harry",
+//         city:"Faisalabad",
+//         age:21,
+//         hobbies:[
+//             "crircket", 'Football'
+//         ]
+//     },
+//     {
+//         stuName:"Jack",
+//         city:"Lahore",
+//         age:21,
+//         hobbies:[
+//             "BooK Reading", 'Football']
+//     },
+//     {
+//     stuName:"Harry",
+//     city:"Islamabad",
+//     age:22,
+//     hobbies:[
+//         "BooK Reading", 'Gardening']
+//     }
+// ]
+// console.log(stuDet[2].hobbies[1]); //Gardening
+
+// let company = {
+//     companyName: "Healthy Candy",
+//     activities: ["food manufacturing",
+//         "improving kids' health",
+//         "manufacturing toys"],
+//     address: [{
+//         street: "2nd street",
+//         number: "123",
+//         zipcode: "33116",
+//         city: "Miami",
+//         state: "Florida"
+//     },
+//     {
+//         street: "1st West avenue",
+//         number: "5",
+//         zipcode: "75001",
+//         city: "Addison",
+//         state: "Texas"
+//     }],
+//     yearOfEstablishment: 2021
+// };
+// console.log(company.address[1].city);  //Addison
+
+// Practice exercise 3.5
+
+// 1. Create an object named people that contains an empty array that is
+// called friends .
+let people=[
+
+]
+// 2. Create three variables, each containing an object, that contain one of
+// your friend's first names, last names, and an ID value.
+let Ali={
+    fanAME:"Ali",
+    lName:"Abdullah",
+    ID:1334
+}
+let Akbar={
+    fanAME:"Akbar",
+    lName:"Ali",
+    ID:1335
+}
+let Usman={
+    fanAME:"Usman",
+    lName:"Khan",
+    ID:1336
+}
+// 3. Add the three friends to the friend array.
+people.push(Ali,Akbar,Usman)
+    // 4. Output it to the console
+    console.log(people);
