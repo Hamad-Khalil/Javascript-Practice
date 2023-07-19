@@ -10,7 +10,7 @@
 // console.log(sum);
 
 // code to find number divisible to 5 in array with filter
-// 
+//
 // let array=[12,15,23,25,34,35,45,56,67,75]
 // let divisible5= array.filter(num => num %5===0)
 // console.log(divisib)
@@ -70,7 +70,7 @@
 // array.pop()
 // console.log(array);
 
-// array.push(6)// code to find Negative value in array with the help of .forEach 
+// array.push(6)// code to find Negative value in array with the help of .forEach
 
 // const array= [1,2,-3,2,-4,5,-4,6,7,-6]
 // let Negative=[];
@@ -167,13 +167,13 @@
 // }
 // console.log(array);
 // code to find number divisible to 5 in array with filter
-// 
+//
 // let array=[12,15,23,25,34,35,45,56,67,75]
 // let divisible5= array.filter(num => num %5===0)
 // console.log(divisib)
 
 
-// code to find Negative value in array with the help of .forEach 
+// code to find Negative value in array with the help of .forEach
 
 // const array= [1,2,-3,2,-4,5,-4,6,7,-6]
 // let Negative=[];
@@ -410,27 +410,90 @@
 
 // 1. Create an object named people that contains an empty array that is
 // called friends .
-let people=[
+// let people=[
 
-]
-// 2. Create three variables, each containing an object, that contain one of
-// your friend's first names, last names, and an ID value.
-let Ali={
-    fanAME:"Ali",
-    lName:"Abdullah",
-    ID:1334
-}
-let Akbar={
-    fanAME:"Akbar",
-    lName:"Ali",
-    ID:1335
-}
-let Usman={
-    fanAME:"Usman",
-    lName:"Khan",
-    ID:1336
-}
-// 3. Add the three friends to the friend array.
-people.push(Ali,Akbar,Usman)
-    // 4. Output it to the console
-    console.log(people);
+// ]
+// // 2. Create three variables, each containing an object, that contain one of
+// // your friend's first names, last names, and an ID value.
+// let Ali={
+//     fanAME:"Ali",
+//     lName:"Abdullah",
+//     ID:1334
+// }
+// let Akbar={
+//     fanAME:"Akbar",
+//     lName:"Ali",
+//     ID:1335
+// }
+// let Usman={
+//     fanAME:"Usman",
+//     lName:"Khan",
+//     ID:1336
+// }
+// // 3. Add the three friends to the friend array.
+// people.push(Ali,Akbar,Usman)
+//     // 4. Output it to the console
+//     console.log(people);
+
+// Practice exercise 4.1
+
+// // 1. Create a variable with a Boolean value.
+// let x= true;
+// // 2. Output the value of the variable to the console.
+// console.log(x);
+// // 3. Check whether the variable is true and if so, output a message to the
+// // console, using the following syntax:
+// // if(myVariable){
+// // //action
+// // }
+// if(x==true){
+//     console.log('This is the result of true condition');
+// };
+// // 4. Add another if statement with an ! in front of the variable to check
+// // whether the condition is not true, and create a message that will be
+// // printed to the console in that instance. You should have two if
+// // statements, one with an ! and the other without. You could also use
+// // an if and an else statement instead—experiment!
+// if(x!==true){
+//     console.log('This is the result of false condition');
+// }
+
+
+
+// Practice exercise 4.2
+
+// // 1. Create a prompt to ask the user's age
+// let prompAge=prompt("Please write your age")
+// // 2. Convert the response from the prompt to a number
+// let userAge=Number(prompAge)
+// // 3. Declare a message variable that you will use to hold the console
+// // message for the user
+// let msg=`Your age is ${userAge} so you can buy alcohol`
+// // 4. If the input age is equal to or greater than 21, set the message variable
+// // to confirm entry to a venue and the ability to purchase alcohol
+// if(userAge>=21){
+//     alert(msg)
+// }
+// // 5. If the input age is equal to or greater than 19, set the message variable
+// // to confirm entry to the venue but deny the purchase of alcohol
+// if(userAge<21){
+//     alert(`you are unable to buy alcohol`)
+// }
+// // 6. Provide a default else statement to set the message variable to deny
+// // entry if none are true
+// else(alert('Please write your age'))
+// // 7. Output the response message variable to the console
+
+// console.log(userAge);
+
+
+// Conditional ternary operators
+
+// let age=18;
+// age>=18? console.log('You can go'):console.log("you can't go");
+// console.log(age);
+
+
+// switch statements
+
+
