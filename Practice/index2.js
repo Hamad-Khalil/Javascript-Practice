@@ -170,10 +170,10 @@
 // 3. Create an array containing the same three items. Using either the for
 // loop or the for in loop, output the values from the array into the
 // console.
-let arr=[1,1,3,4,5]
-for(let ele in arr){
-    console.log(arr[ele]);
-}
+// let arr=[1,1,3,4,5]
+// for(let ele in arr){
+//     console.log(arr[ele]);
+// }
 
 // let arr=[423,'Hamad', 'fsd']
 // for (ele of arr){
@@ -186,10 +186,101 @@ for(let ele in arr){
 //     stuName:'Hamad',
 //     city:'fsd'
 // }
+// // let arr=Object.keys(obj)
+// // let arr1=Object.values(obj)
 
-// for(let i of obj){
-//     console.log(obj[i]);
+// // let arr3=Object.keys(obj)
+// // for(let i=0; i<arr3.length; i++){
+// //     console.log(`${arr3[i]} : ${obj[arr3[i]]}`);
+// // } //stuId : 423
+// // // stuName : Hamad
+// // // city : fsd
+// // for(let i of Object.values(obj)){
+// //     console.log(i); 
+// // } //423
+// // // Hamad
+// // // fsd
+// // console.log(arr);//[ 'stuId', 'stuName', 'city' ]
+// // console.log(arr1); //[ 423, 'Hamad', 'fsd' ]
+
+// // let iArr= Object.entries(obj)
+// // console.log(iArr)// [ [ 'stuId', 423 ], [ 'stuName', 'Hamad' ], [ 'city', 'fsd' ] 
+
+// let cars = [
+//     {
+//     model: "Golf",
+//     make: "Volkswagen",
+//     year: 1999,
+//     color: "black",
+//     },
+//     {
+//     model: "Picanto",
+//     make: "Kia",
+//     year: 2020,
+//     color: "red",
+//     },
+//     {
+//     model: "Peugeot",
+//     make: "208",
+//     year: 2021,
+//     color: "black",
+//     },
+//     {
+//     model: "Fiat",
+//     make: "Punto",
+//     year: 2020,
+//     color: "black",
+//     }
+//    ];
+
+//    for (let i = 0; i < cars.length; i++) {
+//     if (cars[i].year >= 2020) {
+//     if (cars[i].color === "black") {
+//     console.log("I have found my new car:", cars[i]);
+//     break;
+//     }
+//     }
+//  }
+
+
+// function adNum(x=2, y=2){
+//     console.log(x+y);
 // }
+// adNum(3,3)
 
-// let iArr= Object.entries(obj)
-// console.log(iArr)// [ [ 'stuId', 423 ], [ 'stuName', 'Hamad' ], [ 'city', 'fsd' ] ]
+
+
+// Function
+
+//Arrwo functions
+
+// let arFun=(x,y) => x+y
+// console.log(arFun(2,2));
+
+// let arFun=x => x*6
+// console.log(arFun(2));
+
+// let city=['Faisalabad', 'Lahore', 'Islamabad']
+// let city2=['Peshawar','Queta','Karachi']
+
+// console.log(...city, ...city2, 'Multan');
+// function add(x,y){
+//     console.log(x+y);
+// }
+// let arr=[1,3]
+// add(...arr)
+
+// function add(x,y){
+//     return x+y;
+// }
+// let sum=add(2,3)
+// console.log(sum);
+// let x
+
+function doingStuff() { 
+    if (true) { 
+    console.log(x);
+    var x = "local"; 
+    } 
+   }
+   doingStuff(); // undefined
