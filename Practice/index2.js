@@ -277,10 +277,57 @@
 // console.log(sum);
 // let x
 
-function doingStuff() { 
-    if (true) { 
-    console.log(x);
-    var x = "local"; 
-    } 
-   }
-   doingStuff(); // undefined
+// function doingStuff() { 
+//     if (true) { 
+//     console.log(x);
+//     var x = "local"; 
+//     } 
+//    }
+//    doingStuff(); // undefined
+
+// Very Important Array Methods
+// ● Foreach method
+// let arr=[1,2,3,4,5,6,7]
+// let sum=0
+// function addNum(ele){
+//     sum +=ele
+//     console.log(sum);
+// }
+// arr.forEach(addNum);
+
+// let stuName=['Hamad','Asif','Ali','Akbar']
+// function findPos(ele, i){
+//     console.log(`${ele} is on the position ${i+1}`);
+// }
+// stuName.forEach(findPos) // Hamad is on the position 1
+// // Asif is on the position 2
+// // Ali is on the position 3
+// // Akbar is on the position 4
+// ● Map method
+// let numArr=[58,531,879,1253,61364,8,324,6]
+// let evenArr= numArr.map(x => x *2)
+// console.log(evenArr);
+
+
+// ● Filter
+
+// let stuDet=['Bilal', 21, 8-8-2002, 'Faisalabad','BS Software Egineering'];
+// function findStr(ele){
+//     return typeof(ele)=='string' 
+// }
+// console.log(stuDet.filter(findStr)); //[ 'Bilal', 'Faisalabad', 'BS Software Egineering' ]
+// let str=stuDet.filter((i)=> typeof(i)=='number')
+// console.log(str); //[ 21, -2002 ]
+
+// ● Every
+// let stuDet=['Bilal', 21, 8-8-2002, 'Faisalabad','BS Software Egineering'];
+// function findStr(ele){
+//     return typeof(ele)=='string' 
+// }
+// console.log(stuDet.every(findStr));
+
+
+//Important String Method
+
+
+
