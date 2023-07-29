@@ -1,0 +1,38 @@
+1- How we can access HTML elements using DOM in javascript?
+
+There are 5 methods by which we can access a HTML file in jS.
+using "document.______" is common in all methods
+
+1: 
+We can access the HTML element in javascript by using the ID of that element.
+eg: let newVar= document.getElementById("ElementID")
+
+2: We can access the HTML element in javascript by using class of that element
+ which may be same for more than one element.
+ eg: let newVar= document.getElementByClassName("ElementClassName")
+
+3:
+We can access HTML elements by using tags of the that element.
+ eg: let newVar= document.getElementByTagName("TagName")
+
+ 4:
+ We can access HTML element by using a CSS selector. 
+ eg:  eg: let newVar= document.quearySelector("CSS selector") 
+ it will access only first element of that CSS selector.
+
+ 5:
+  We can access more than one HTML element at a time by using a CSS selector. 
+ eg:  eg: let newVar= document.quearySelectorAll("CSS selector") 
+ it will access all elements of that CSS selector.
+
+
+3- What are the event-listners in DOM?
+
+In the Document Object Model (DOM), event listeners are JavaScript functions that 
+are bound to specific HTML elements and are triggered when certain events occur on
+those elements. Event listeners allow you to respond to user interactions and other
+events that happen in the browser. Here are some commonly used event listeners in
+the DOM:
+
+
+
