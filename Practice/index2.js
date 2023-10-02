@@ -1,7 +1,7 @@
 // Loops
 
 
-// While Loops 
+// While Loops
 
 // let i=1
 // while(i<=10){
