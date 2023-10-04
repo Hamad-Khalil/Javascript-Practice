@@ -2,7 +2,7 @@
 // let [ele1, ele2,...rest]= arr
 // console.log(ele1);
 // console.log(ele2);
-// console.log(rest); 
+// console.log(rest);
 
 
 // let obj = {
