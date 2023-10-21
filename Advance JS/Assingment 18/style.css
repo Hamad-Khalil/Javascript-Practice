@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    position: relative;
+    left: 400px;
+}
+input{
+    color: red;
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 60px;
+    font-size: xx-large;   
+}
+#con{
+    color: red;
+    position: relative;
+    left: 400px;
+    font-size: large;
+    
+}
+#cl{
+    color: red;
+    position: relative;
+    left: 400px;
+}
