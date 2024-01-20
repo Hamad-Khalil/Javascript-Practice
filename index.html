@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h1>Hamad Khalil</h2>
+    <h1>Hamad Khalil</h2>
+    <h1>Hamad Khalil</h2>
+</body>
+</html>
+<script>
+   
+let ask= prompt("Do you want counting")
+
+if(ask=="y"){
+    console.log(timer);
+}
+let counter=0
+let timer= setInterval(function (){
+    console.log("asynchronus message", counter);
+    counter +=  1
+    if( counter>=5){
+        clearInterval(timer)
+    }
+},1000)
+</script>
