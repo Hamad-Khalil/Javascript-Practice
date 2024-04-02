@@ -1,6 +1,7 @@
 // // This is the example that how callBack function work
 
 // function Remarks(grade){
+
 //     if ( grade=='A+'){
 //         console.log('your grade is',grade,', Excellent!');
 //     }
